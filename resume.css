@@ -1,0 +1,118 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f3f4f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Main Layout */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0;
+    border-bottom: 2px solid #eee;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #555;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 8px;
+}
+
+hr {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+}
+
+/* Professional Summary */
+section h2 {
+    font-size: 20px;
+    color: #444;
+    margin-top: 20px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+/* Work Experience & Education */
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 15px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Skills */
+section ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+section ul li {
+    background-color: #f8f9fa;
+    padding: 8px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+/* Interactive Pseudoclasses for Links */
+nav ul li a:hover, 
+nav ul li a:focus {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+}
