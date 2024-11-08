@@ -55,6 +55,15 @@ hr {
 }
 
 /* Professional Summary */
+section {
+    transition: background-color 0.3s ease;
+}
+
+section:hover {
+    background-color: #f1f1f1;
+}
+
+/* Section Titles */
 section h2 {
     font-size: 20px;
     color: #444;
